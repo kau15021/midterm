@@ -29,7 +29,15 @@ public class Arithmetic
         int n= in.nextInt();
         int m= in.nextInt();
         double result = r.calculate(m,n);
-        System.out.println("result :" +result); 
+        System.out.println("result :" +result);
+
+        public enum Operation {
+  PLUS,
+  MINUS,
+  TIMES,
+  DIVIDES
+}
+
     
     }
 }
